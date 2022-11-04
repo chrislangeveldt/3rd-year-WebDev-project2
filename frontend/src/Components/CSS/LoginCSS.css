@@ -1,0 +1,196 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  background: linear-gradient(-45deg,  #41f373,rgb(213, 103, 246), rgb(64, 224, 189), #907df8);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+  overflow-y: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.card{
+  max-width: 500px;
+  padding: 10px 15px 30px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 25px;
+  animation: open .5s;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.466);
+  box-shadow: 0px 10px 50px 10px;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  /* background-color: #3fa1a9; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card input {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  border: 0px
+}
+.checkbox {
+  cursor: pointer;
+}
+
+.login-btn {
+  border: 0px;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px 25px 10px 25px;
+  margin-top: 10px;
+  margin-right: 5px;
+  
+}
+.login-btn:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4,
+              0 0 50px #03e9f4, 0 0 100px #03e9f4;
+  cursor: pointer;
+}
+
+.signup-btn {
+  border: 0px;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px 25px 10px 25px;
+}
+.signup-btn:hover {
+  background: #00ff62;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #00ff62, 0 0 25px #00ff62,
+              0 0 50px #00ff62, 0 0 100px #00ff62;
+  cursor: pointer;
+}
+
+
+/*//////////////////// SIGN UP PAGE //////////////////*/
+
+div .edit-btns {
+  display: flex;
+}
+div .save-btn {
+  border: 0px;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px 25px 10px 25px;
+  margin-left: auto;
+  margin-right: 10px;
+  
+}
+.save-btn:hover {
+  background: #00ff62;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #00ff62, 0 0 25px #00ff62,
+              0 0 50px #00ff62, 0 0 100px #00ff62;
+  cursor: pointer;
+}
+
+div .back-btn {
+  border: 0px;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px 20px 10px 35px;
+  color: rgb(0, 0, 0);
+  margin: 0 auto auto 0;
+}
+.back-btn {
+  text-indent: -15px;
+}
+.back-btn:hover {
+  background: #ff0000;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #ff0000, 0 0 25px #ff0000,
+              0 0 50px #ff0000, 0 0 100px #ff0000;
+  cursor: pointer;
+}
+.img-wrap img{
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+/*//////////////////// END //////////////////*/
+
+
+/* ///////////////////////// Profile //////////////*/
+.loginimg {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.update-btn {
+  border: 0px;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100px;
+  padding: 10px 25px 10px 25px;
+}
+.update-btn:hover {
+  background: #00ff62;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #00ff62, 0 0 25px #00ff62,
+              0 0 50px #00ff62, 0 0 100px #00ff62;
+  cursor: pointer;
+}
+
+.delete-btn {
+  border: 0px;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100px;
+  padding: 10px 25px 10px 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.delete-btn:hover {
+  background: #ff0000;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #ff0000, 0 0 25px #ff0000,
+              0 0 50px #ff0000, 0 0 100px #ff0000;
+  cursor: pointer;
+}
+
+.home-btn {
+  border: 0px;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100px;
+  padding: 10px 25px 10px 25px;
+}
+.home-btn:hover {
+  background: #00c8ff;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #00c8ff, 0 0 25px #00c8ff,
+              0 0 50px #00c8ff, 0 0 100px #00c8ff;
+  cursor: pointer;
+}
+input{
+  width: 180px;
+}
+/* /////////////////////////////////////////////////////////////// */
