@@ -1,4 +1,4 @@
-# DevCo
+# Spot
 
 
 
@@ -19,9 +19,5 @@ Ansar Kurrimboccus
 
 Jayden Abrahams
 
-
-## Project Demo link:
-
-
-
 ## Project Report link:
+https://stellenbosch-my.sharepoint.com/:b:/g/personal/22548890_sun_ac_za/EazQ0SD-839Jiiept4Y3BAAB0NWyNptfKLqnTuidT3TwZQ?e=PCQeFW
